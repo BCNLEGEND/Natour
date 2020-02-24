@@ -53,11 +53,11 @@ body {
     transition: all .2s;
 
     @include respond(tab-port) { // width < 900px?
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     @include respond(phone) { // width < 600px?
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     &:hover{
