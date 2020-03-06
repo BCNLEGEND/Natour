@@ -14,6 +14,7 @@
         top: 0;
         left: 0;
         width: 100%;
+        -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
         border-radius: 3px;
         box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
@@ -77,6 +78,7 @@
                     url(../img/nat-5@0.25x.jpg);
             
             @media (min-resolution: 192dpi) and (min-width: 37.5em),
+                   (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
                    (min-width: 125em) {
                     background-image: 
                         linear-gradient(
@@ -96,6 +98,7 @@
                     url(../img/nat-6@0.25x.jpg);
                     
             @media (min-resolution: 192dpi) and (min-width: 37.5em),
+                   (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
                     (min-width: 125em) {
                         background-image: 
                         linear-gradient(
@@ -115,6 +118,7 @@
                     url(../img/nat-7.jpg);
             
             @media (min-resolution: 192dpi) and (min-width: 37.5em),
+                   (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
                    (min-width: 125em) {
                         background-image: 
                         linear-gradient(
